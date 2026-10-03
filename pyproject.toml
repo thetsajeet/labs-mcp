@@ -1,0 +1,20 @@
+[project]
+name = "mcp-labs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "thetsajeet", email = "ajeet.tumuluru@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastmcp>=4.0.10",
+    "mcp[cli]>=2.3.0",
+]
+
+[project.scripts]
+mcp-labs = "mcp_labs:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"

@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start MCP Labs SSE server",
+      "type": "process",
+      "command": "uv",
+      "args": [
+        "run",
+        "python",
+        "src/mcp_labs/server_sse.py"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}
