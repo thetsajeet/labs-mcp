@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Start MCP Labs SSE server",
+      "label": "Start MCP Labs HTTP server",
       "type": "process",
       "command": "uv",
       "args": [

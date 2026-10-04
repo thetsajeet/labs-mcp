@@ -9,9 +9,9 @@
             "server_stdio.py"
         ]
     },
-    "localSseServer": {
-      "type": "sse",
-      "url": "http://localhost:8000/sse"
+    "localHttpServer": {
+      "type": "http",
+      "url": "http://127.0.0.1:8000/mcp"
     }
   }
 }
