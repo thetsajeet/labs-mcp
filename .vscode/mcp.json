@@ -12,6 +12,15 @@
     "localHttpServer": {
       "type": "http",
       "url": "http://127.0.0.1:8000/mcp"
-    }
+    },
+    "mcpProjectServer": {
+        "command": "uv",
+        "args": [
+            "--directory",
+            "/Users/thetsajeet/Documents/workspace/labs/mcp_labs/src/mcp_project",
+            "run",
+            "server.py"
+        ]
+    },
   }
 }

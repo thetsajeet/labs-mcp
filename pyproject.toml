@@ -12,7 +12,9 @@ dependencies = [
     "fastmcp>=4.0.10",
     "litellm>=1.104.0",
     "mcp[cli]>=2.3.0",
+    "pypdf2>=3.0.1",
     "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
 ]
 
 [project.scripts]
